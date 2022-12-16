@@ -1,5 +1,4 @@
-<pre><code>
-arr = [1,1,0,-1,-1]
+<pre><code>arr = [1,1,0,-1,-1]
 
 // define mutable variables we can add to as we iterate over our array
 let positive = 0,
@@ -14,5 +13,4 @@ for(let i of arr) {
 // divide the sums of each variable by the length of the array to find the ratio, then use the toFixed() method to show six decimals
 console.log((positive / arr.length).toFixed(6))
 console.log((negative / arr.length).toPrecision(6))
-console.log((zero / arr.length).toPrecision(6))
-</code></pre>
+console.log((zero / arr.length).toPrecision(6))</code></pre>
