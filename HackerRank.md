@@ -5,10 +5,7 @@
     negative = 0,
     zero = 0</code></pre>
 
-// iterate over each item in the array and do the following: 
-// if item is greater than 0, add 1 to positive; 
-// if item is less than 0, add 1 to negative; 
-//if item is equal to 0, add 1 to zero
+// iterate over each item in the array and do the following: if item is greater than 0, add 1 to positive; if item is less than 0, add 1 to negative; if item is equal to 0, add 1 to zero
 <pre><code>for(let i of arr) {
   i > 0 ? positive++ : i < 0 ? negative++ : zero++
 }</code></pre>
