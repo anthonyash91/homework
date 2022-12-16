@@ -1,4 +1,4 @@
-<code>
+<pre><code>
   arr = [1,3,5,-4,-9,-6,-1,0,0]
 let positive = 0
 let negative = 0
@@ -21,4 +21,4 @@ const zeroRatio = zero / arr.length
 console.log(positiveRatio.toFixed(6))
 console.log(negativeRatio.toPrecision(6))
 console.log(zeroRatio.toPrecision(6))
-                         </code>
+                         </code></pre>
