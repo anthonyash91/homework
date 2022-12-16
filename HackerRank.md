@@ -16,5 +16,5 @@
 console.log((negative / arr.length).toPrecision(6))
 console.log((zero / arr.length).toPrecision(6))</code></pre>
 
-## Screenshot
-![success]([link](https://assets.codepen.io/8370674/Screen+Recording+2022-12-16+at+12.32.11+AM.mov](my_video.mov))
+## Success Message
+https://user-images.githubusercontent.com/109315220/208029491-5ed95cd8-0c2b-484a-b17c-e3bd6d1ddec8.mov
