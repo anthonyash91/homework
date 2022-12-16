@@ -17,4 +17,4 @@ console.log((negative / arr.length).toPrecision(6))
 console.log((zero / arr.length).toPrecision(6))</code></pre>
 
 ## Screenshot
-![https://assets.codepen.io/8370674/Screen+Recording+2022-12-16+at+12.32.11+AM.mov](my_video.mov)
+![success]([link](https://assets.codepen.io/8370674/Screen+Recording+2022-12-16+at+12.32.11+AM.mov](my_video.mov))
