@@ -1,3 +1,4 @@
+## Code With Explaination
 <pre><code>arr = [1,1,0,-1,-1]</code></pre>
 
 // define mutable variables we can add to as we iterate over our array
@@ -14,3 +15,6 @@
 <pre><code>console.log((positive / arr.length).toFixed(6))
 console.log((negative / arr.length).toPrecision(6))
 console.log((zero / arr.length).toPrecision(6))</code></pre>
+
+## Screenshot
+![https://assets.codepen.io/8370674/Screen+Recording+2022-12-16+at+12.32.11+AM.mov](my_video.mov)
