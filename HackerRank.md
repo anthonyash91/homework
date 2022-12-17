@@ -16,5 +16,3 @@
 console.log((negative / arr.length).toPrecision(6))
 console.log((zero / arr.length).toPrecision(6))</code></pre>
 
-## Success Message
-https://user-images.githubusercontent.com/109315220/208029491-5ed95cd8-0c2b-484a-b17c-e3bd6d1ddec8.mov
