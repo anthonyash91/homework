@@ -1,4 +1,4 @@
-## Code With Explaination
+## Plus Minus Code With Explaination
 <pre><code>arr = [1,1,0,-1,-1]</code></pre>
 
 // define mutable variables we can add to as we iterate over our array
