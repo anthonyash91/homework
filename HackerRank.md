@@ -90,49 +90,52 @@ function timeConversion(s) {
 ```
 // the only part of the time that will change is the hour, so create a variable that stores only the hour part of the time
 ```	
-	let hour = s.slice(0,2);
+let hour = s.slice(0,2);
 ```	
 
 // we’re not going to be changing the minutes and seconds, but we’ll still need to add them our new hour in order to show the entire time, so create a variable that stores only the minutes and seconds part of the time
+
 ```
-	let minutes = s.slice(3,8)
+let minutes = s.slice(3,8)
 ```
 	
 // if the 8th index in the time is ‘A’, we will be dealing with AM time
 ```	
-	if(s[8] === 'A') {
+if(s[8] === 'A') {
 ```
+
 // if the hour is 12 (midnight), replace 12 in the time with 00 and then concatenate the minutes variable
 // make sure to include a colon between the hour and minutes so your time string is correctly displayed
+
 ```		
-		if(hour === '12') {
-			return '00' + ':' + minutes
+if(hour === '12') {
+	return '00' + ':' + minutes
 ```
 // if the hour isn’t 12, no adding to the hour is needed so just return the hour and then concatenate the minutes variable
 // make sure to include a colon between the hour and minutes so your time string is correctly displayed
 ```
-		} else {
-			return hour + ':' + minutes
-		}
-	}
+} else {
+	return hour + ':' + minutes
+}
+}
 ```
 // if the 8th index in the time is ‘P’, we will be dealing with PM time
 ```
-	if(s[8] === 'P') {
+if(s[8] === 'P') {
 ```
 // if the hour is 12 (none), no adding to the hour is needed so just return the hour and then concatenate the minutes variable
 // make sure to include a colon between the hour and minutes so your time string is correctly displayed
 ```
-		if(hour === '12') {
-			return hour + ':' + minutes
+if(hour === '12') {
+	return hour + ':' + minutes
 ```
 // if the hour isn’t 12, add 12 to the hour and then concatenate the minutes variable
 // make sure to include a colon between the hour and minutes so your time string is correctly displayed
 ```
-		} else {
-			return (parseInt(hour) + 12).toString() + ':' + minutes
-		}
-	}
+} else {
+	return (parseInt(hour) + 12).toString() + ':' + minutes
+}
+}
 }
 ```
 // invoke the function to test the time is being converted correctly
