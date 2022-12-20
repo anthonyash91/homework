@@ -16,7 +16,7 @@ console.log((negative / arr.length).toPrecision(6))
 console.log((zero / arr.length).toPrecision(6))
 ```
 
-# Plus Minus Code
+# Plus Minus Code Explaination
 
 ```
 arr = [1, 1, 0, -1, -1]
