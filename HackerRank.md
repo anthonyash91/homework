@@ -147,3 +147,40 @@ timeConversion('09:01:00AM')
 =======================
 =======================
 =======================
+
+# Mini Max Sum Code
+```
+arr = [1,2,3,4,5].sort()
+let max = 0
+let min = 0
+  
+for(let i = 0; i < 5; i++) {
+  if(i !== 0) {
+    min += arr[i]
+  } 
+  
+  if(i !== 4) {
+    max += arr[i]
+  }
+}
+
+console.log(max, min)
+
+
+# Plus Minus Code
+
+```
+arr = [1, 1, 0, -1, -1]
+
+let positive = 0,
+    negative = 0,
+    zero = 0
+    
+for(let i of arr) {
+    i > 0 ? positive++ : i < 0 ? negative++ : zero++
+}
+
+console.log((positive / arr.length).toFixed(6))
+console.log((negative / arr.length).toPrecision(6))
+console.log((zero / arr.length).toPrecision(6))
+```
